@@ -29,7 +29,7 @@ app.use(express.urlencoded({ limit: "10mb", extended: true }));
 app.use(cookieParser());
 const allowedOrigins = [
   "http://localhost:3000", // local frontend
-  "https://matty-ai-online-graphic-design-tool-sooty.vercel.app/" 
+  "https://matty-ai-online-graphic-design-tool-sooty.vercel.app" 
 ];
 app.use(cors({
   origin: function(origin, callback){
