@@ -15,7 +15,7 @@ import feedbackRoutes from "./routes/feedbackRoutes.js";
 import contactRoutes from "./routes/contactRoutes.js";
 import profileRoutes from "./routes/user.route.js";
 import projectRoutes from "./routes/ProjectRoutes.js";
-import chatRoutes from "./chatbot/chatBot.js"
+import chatRoutes from "./chatbot/chatbot.js"
 // ✅ Now passport runs AFTER env is loaded
 
 const app = express();
